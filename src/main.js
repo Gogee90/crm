@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import axios from "axios";
 
-axios.defaults.baseURL = 'http://dead69not.pythonanywhere.com/api'
+axios.defaults.baseURL = 'https://dead69not.pythonanywhere.com/api'
 
 Vue.config.productionTip = false
 
