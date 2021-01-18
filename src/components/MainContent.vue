@@ -10,6 +10,16 @@
           <th>Исполнитель</th>
           <th>Услуги</th>
       </tr>
+      <tr>
+        <td><input placeholder="Номер заказа" disabled></td>
+        <td><input placeholder="Телефон"></td>
+        <td><input placeholder="Статус"></td>
+        <td><input placeholder="Дата заказа" disabled></td>
+        <td><input placeholder="Клиент"></td>
+        <td><input placeholder="Исполнитель"></td>
+        <td><input placeholder="Услуги"></td>
+        <td><i class="material-icons">add</i></td>
+      </tr>
     </thead>
 
     <tbody>
@@ -25,6 +35,7 @@
         <td>{{data.client}}</td>
         <td>{{data.executioner}}</td>
         <td><p v-for="order_name in data.order" :key="order_name.id">{{order_name.service_name}}</p></td>
+        <td><i class="material-icons">edit</i><i class="material-icons">delete</i></td>
       </tr>
     </tbody>
   </table>

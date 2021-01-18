@@ -21,7 +21,7 @@ const routes = [
     path: '/services',
     name: 'ServicesComponent',
     component: ServicesComponent
-  }
+  },
 ]
 
 const router = new VueRouter({
