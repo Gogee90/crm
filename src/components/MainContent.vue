@@ -65,10 +65,6 @@
 </script>
 
 <style>
-table {
-  font-family: Roboto;
-}
-
 .paid {
   background-color: lightgreen;
 }
